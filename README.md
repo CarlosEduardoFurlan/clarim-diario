@@ -1,16 +1,15 @@
-# React + Vite
+# Clarim Diario
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atividade do modulo 3 do curso de Desenvolvedor Full Stack da +praTi.
 
-Currently, two official plugins are available:
+Desenvolvi o site ficticio de noticias Clarim Diario, inspirado no universo do Homem-Aranha. A aplicacao foi construida com React e oferece uma capa com materias dinamicas, paginas individuais de noticia, cadastro de assinantes com preenchimento de endereco por CEP, autenticacao de usuario, area protegida do assinante e alternancia entre temas claro e escuro.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Como executar
 
-## React Compiler
+Instale as dependencias e inicie a API e a aplicacao em terminais separados:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run api
+npm run dev
+```
