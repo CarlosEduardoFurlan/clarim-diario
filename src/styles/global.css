@@ -15,8 +15,8 @@ body {
 }
 
 .aviso-tela {
-    text-align: center;
-    padding: 60px 16px;
-    font-family: var(--fonte-ui);
-    color: var(--cinza-legenda);
+  text-align: center;
+  padding: 60px 16px;
+  font-family: var(--fonte-ui);
+  color: var(--cinza-legenda);
 }
